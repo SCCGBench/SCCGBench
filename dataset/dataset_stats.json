@@ -1,0 +1,58 @@
+{
+  "name": "SCCGBench",
+  "total_samples": 3135,
+  "unique_apis": 850,
+  "unique_repos": 2082,
+  "splits": {
+    "train": 2257,
+    "validation": 266,
+    "test": 612
+  },
+  "annotations": {
+    "human_written": 1726,
+    "desensitized_intent": 1409
+  },
+  "avg_quality_score": 89.82,
+  "quality_buckets": {
+    ">=90": 1675,
+    ">=80": 2618,
+    ">=70": 2708
+  },
+  "comment_coverage_pct": 65.9,
+  "docstring_coverage_pct": 25.01,
+  "doc_alignment": {
+    "url": 1935,
+    "route": 462,
+    "host_only": 738
+  },
+  "http_methods": {
+    "GET": 2537,
+    "POST": 598
+  },
+  "credentials_redacted": true,
+  "redaction_placeholders": [
+    "<REDACTED_RAPIDAPI_KEY>",
+    "<REDACTED_OPENAI_KEY>",
+    "<REDACTED_GOOGLE_API_KEY>",
+    "<REDACTED_GITHUB_TOKEN>",
+    "<REDACTED_SECRET>",
+    "<REDACTED_API_KEY>",
+    "<REDACTED_ACCESS_KEY>",
+    "<REDACTED_ACCESS_TOKEN>",
+    "<REDACTED_AUTH_TOKEN>",
+    "<REDACTED_BASIC_CREDENTIAL>",
+    "<REDACTED_COOKIE>",
+    "<REDACTED_JWT>",
+    "<REDACTED_PASSWORD>",
+    "<REDACTED_EMAIL>",
+    "<REDACTED_USER>"
+  ],
+  "scored_samples": 2757,
+  "quality_note": "avg_quality_score and buckets cover the 2,757 originally-crawled samples that carry code_quality_score; the 378 expansion samples (source_machine=crawl_v2v3) passed a separate alignment/quality audit.",
+  "release_security_audit": {
+    "scanner": "03_dataset_construction/audit_public_release.py",
+    "high_confidence_secret_hits": 0,
+    "email_candidates": 0,
+    "absolute_user_path_candidates": 0
+  }
+}

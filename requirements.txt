@@ -1,0 +1,4 @@
+# ② GitHub 代码爬虫 / ③ 构建 / ④ 实验
+requests>=2.28.0
+# ① RapidAPI 浏览器自动化爬虫
+playwright>=1.44.0

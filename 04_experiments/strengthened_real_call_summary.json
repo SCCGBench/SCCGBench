@@ -1,0 +1,99 @@
+{
+  "gold_screen": {
+    "candidate_apis": 75,
+    "received_http_response": 71,
+    "success_2xx": 21,
+    "outcomes": {
+      "reachable_non_2xx": 26,
+      "success_2xx": 21,
+      "service_unavailable": 12,
+      "rate_limit": 1,
+      "network_failure": 4,
+      "authentication": 11
+    }
+  },
+  "groups": {
+    "Mock=1": {
+      "requests": 114,
+      "unique_apis": 19,
+      "request_2xx": 95,
+      "request_2xx_rate": 0.8333333333333334,
+      "request_2xx_wilson_95": [
+        0.7543,
+        0.8906
+      ],
+      "externally_evaluable_requests": 104,
+      "external_failure_adjusted_2xx_rate": 0.9134615384615384,
+      "payload_valid": 92,
+      "payload_valid_rate": 0.8070175438596491,
+      "api_with_any_2xx": 16,
+      "api_any_2xx_rate": 0.8421052631578947,
+      "api_wilson_95": [
+        0.6243,
+        0.9448
+      ],
+      "api_macro_2xx_rate": 0.8045112781954886,
+      "api_cluster_bootstrap_95": [
+        0.6241,
+        0.9474
+      ],
+      "apis_all_requests_2xx": 15,
+      "apis_no_requests_2xx": 3,
+      "gold_response_shape_match": 95,
+      "gold_response_shape_match_rate": 0.8333333333333334,
+      "outcomes": {
+        "reachable_non_2xx": 9,
+        "success_2xx": 95,
+        "authentication": 4,
+        "service_unavailable": 6
+      }
+    },
+    "Mock=0": {
+      "requests": 9,
+      "unique_apis": 4,
+      "request_2xx": 5,
+      "request_2xx_rate": 0.5555555555555556,
+      "request_2xx_wilson_95": [
+        0.2666,
+        0.8112
+      ],
+      "externally_evaluable_requests": 9,
+      "external_failure_adjusted_2xx_rate": 0.5555555555555556,
+      "payload_valid": 5,
+      "payload_valid_rate": 0.5555555555555556,
+      "api_with_any_2xx": 2,
+      "api_any_2xx_rate": 0.5,
+      "api_wilson_95": [
+        0.15,
+        0.85
+      ],
+      "api_macro_2xx_rate": 0.5,
+      "api_cluster_bootstrap_95": [
+        0.0,
+        1.0
+      ],
+      "apis_all_requests_2xx": 2,
+      "apis_no_requests_2xx": 2,
+      "gold_response_shape_match": 5,
+      "gold_response_shape_match_rate": 0.5555555555555556,
+      "outcomes": {
+        "reachable_non_2xx": 4,
+        "success_2xx": 5
+      }
+    }
+  },
+  "safety_exclusions": {
+    "excluded_wrong_host_or_non_GET": 108,
+    "eligible": 123
+  },
+  "synthetic_wrong_endpoint_controls": {
+    "requests": 21,
+    "success_2xx": 0,
+    "payload_valid": 0,
+    "outcomes": {
+      "reachable_non_2xx": 20,
+      "service_unavailable": 1
+    }
+  },
+  "interpretation_boundary": "API-level estimates are primary. Mock=0 controls are safety-filtered to GET requests that remain on the same gold FREE RapidAPI host; wrong-host controls are not issued to the network."
+}

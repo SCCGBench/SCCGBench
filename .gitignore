@@ -1,0 +1,64 @@
+# Secrets
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+*.secret
+secrets.json
+token.json
+tokens.json
+api_key.json
+openai_key.txt
+deepseek_key.txt
+rapidapi_key.txt
+github_token.txt
+credentials.json
+service_account.json
+cookies.json
+redactions.txt
+
+# Runtime configs
+config_private.py
+runtime_config_private.py
+local_config.py
+
+# Raw / unredacted data
+raw/
+raw_data/
+unredacted/
+original_raw/
+before_redaction/
+*_raw.json
+*_raw.jsonl
+*unredacted*
+*before_redaction*
+crawled_data/
+thread_progress/
+.progress_*.json
+
+# Logs and experiment runs
+logs/
+debug_logs/
+*.log
+passk_runs/
+*_检索统计.json
+
+# Browser / crawler sessions
+user_data_dir/
+browser_profile/
+playwright/.auth/
+Cookies
+Local Storage/
+Session Storage/
+Default/
+.rapidapi-*profile*/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# OS / IDE
+.DS_Store
+.vscode/
+.idea/

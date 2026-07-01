@@ -1,0 +1,167 @@
+{
+  "generated_for": "SCCGBench paper - API popularity/usage table",
+  "source": "RapidAPI by_category metadata cache (joined on api_slug)",
+  "coverage": {
+    "dataset_apis": 850,
+    "matched": 850,
+    "samples": 3135,
+    "popularity_score_available_apis": 772,
+    "subscriptions_available_apis": 850
+  },
+  "popularity_score": {
+    "mean": 7.84,
+    "median": 9.7,
+    "buckets": [
+      {
+        "bucket": "≥9.5",
+        "apis": 511,
+        "api_pct": 60.1,
+        "samples": 2372,
+        "sample_pct": 75.7
+      },
+      {
+        "bucket": "9.0–9.5",
+        "apis": 72,
+        "api_pct": 8.5,
+        "samples": 126,
+        "sample_pct": 4.0
+      },
+      {
+        "bucket": "8.0–9.0",
+        "apis": 33,
+        "api_pct": 3.9,
+        "samples": 48,
+        "sample_pct": 1.5
+      },
+      {
+        "bucket": "<8.0",
+        "apis": 156,
+        "api_pct": 18.4,
+        "samples": 361,
+        "sample_pct": 11.5
+      }
+    ]
+  },
+  "subscriptions": {
+    "median": 1013.5,
+    "mean": 3702,
+    "p90": 9949,
+    "max": 66640,
+    "buckets": [
+      {
+        "bucket": "≥10000",
+        "apis": 84,
+        "api_pct": 9.9,
+        "samples": 968,
+        "sample_pct": 30.9
+      },
+      {
+        "bucket": "1000–9999",
+        "apis": 344,
+        "api_pct": 40.5,
+        "samples": 1264,
+        "sample_pct": 40.3
+      },
+      {
+        "bucket": "100–999",
+        "apis": 300,
+        "api_pct": 35.3,
+        "samples": 582,
+        "sample_pct": 18.6
+      },
+      {
+        "bucket": "<100",
+        "apis": 122,
+        "api_pct": 14.4,
+        "samples": 321,
+        "sample_pct": 10.2
+      }
+    ]
+  },
+  "pricing": [
+    {
+      "tier": "FREEMIUM",
+      "apis": 708,
+      "api_pct": 83.3,
+      "samples": 2642,
+      "sample_pct": 84.3
+    },
+    {
+      "tier": "FREE",
+      "apis": 109,
+      "api_pct": 12.8,
+      "samples": 357,
+      "sample_pct": 11.4
+    },
+    {
+      "tier": "PAID",
+      "apis": 33,
+      "api_pct": 3.9,
+      "samples": 136,
+      "sample_pct": 4.3
+    }
+  ],
+  "top_categories": [
+    {
+      "category": "Data",
+      "apis": 103,
+      "samples": 419,
+      "sample_pct": 13.4
+    },
+    {
+      "category": "Finance",
+      "apis": 47,
+      "samples": 286,
+      "sample_pct": 9.1
+    },
+    {
+      "category": "Sports",
+      "apis": 67,
+      "samples": 279,
+      "sample_pct": 8.9
+    },
+    {
+      "category": "Social",
+      "apis": 55,
+      "samples": 219,
+      "sample_pct": 7.0
+    },
+    {
+      "category": "Travel",
+      "apis": 37,
+      "samples": 208,
+      "sample_pct": 6.6
+    },
+    {
+      "category": "Weather",
+      "apis": 25,
+      "samples": 168,
+      "sample_pct": 5.4
+    },
+    {
+      "category": "Entertainment",
+      "apis": 36,
+      "samples": 131,
+      "sample_pct": 4.2
+    },
+    {
+      "category": "Artificial Intelligence/Machine Learning",
+      "apis": 51,
+      "samples": 127,
+      "sample_pct": 4.1
+    },
+    {
+      "category": "News, Media",
+      "apis": 24,
+      "samples": 113,
+      "sample_pct": 3.6
+    },
+    {
+      "category": "Music",
+      "apis": 22,
+      "samples": 109,
+      "sample_pct": 3.5
+    }
+  ],
+  "total_categories": 45
+}
